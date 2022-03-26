@@ -55,7 +55,7 @@ class CommentPushWechat_Plugin implements Typecho_Plugin_Interface
             ),'1', _t('当评论者为自己时不发送通知'), _t('启用后，若评论者为博主，则不会发送微信通知<br><br><br>
             此插件由原作者 <a href="https://moe.best/">神代綺凜</a> 的 <a href="https://github.com/Tsuk1ko/Comment2Wechat">Comment2Wechat</a> 插件修改而来<br>
             
-            本插件项目地址：<a href="https://github.com/YKilin/Comment2Wechat">https://github.com/YKilin/Comment2Wechat</a>
+            本插件项目地址：<a href="https://github.com/zaizaiyou/CommentPushWechat">https://github.com/zaizaiyou/CommentPushWechat</a>
             '));
         $form->addInput($notMyself);
     }
